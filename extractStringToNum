@@ -1,0 +1,7 @@
+function extractNumbers(str) {
+    let numbers = str.match(/\d+/g);//its takes the number in the string
+    return numbers.map(Number);
+}
+
+const result = extractNumbers("The year is 2025 and there are 365 days in a year.");
+console.log(result);  

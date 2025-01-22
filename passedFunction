@@ -1,0 +1,13 @@
+function somefunction(add){
+    return add()
+
+}
+
+
+function add() {
+    return 5 + 3;
+}
+
+const result = somefunction(add);
+
+console.log(result); 
