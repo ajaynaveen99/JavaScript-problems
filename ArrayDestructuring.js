@@ -14,17 +14,17 @@ let numbers = [10];
 
 let [l= 1, m = 2, n = 3] = numbers;
 
-console.log(l); // Output: 10 (takes the value from the array)
-console.log(m); // Output: 2 (default value)
-console.log(n); // Output: 3 (default value)
+console.log(l); 
+console.log(m); 
+console.log(n); 
 //Swapping variables
 let i= 5;
 let k= 10;
 
 [i, k] = [k, i]; // Swap values
 
-console.log(i); // Output: 10
-console.log(k); // Output: 5
+console.log(i); 
+console.log(k);
 //...rest operator
 let numbers1 = [10, 20, 30, 40, 50];
 
