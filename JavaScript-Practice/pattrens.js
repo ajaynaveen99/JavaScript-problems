@@ -24,7 +24,7 @@
 //     }
 // }console.log(space)
 // }
-// ////program 2.1 2-crosses
+////program 2.1 2-crosses
 // let i,j;
 // n=20;
 // console.log(Math.floor(n/2))
@@ -41,7 +41,7 @@
 // }console.log(space)
 // }
 
-////program 2.2 2-crosses(in-cross)
+//program 2.2 2-crosses(in-cross)
 let i, j;
 n = 20;
 console.log(Math.floor(n / 2))
@@ -57,3 +57,19 @@ for (i = 0; i < n; i++) {
         }
     } console.log(space)
 }
+
+
+// // //pattren-3
+// let i, j, k;
+// for (i = 1; i <= 5; i++) {
+//     let space = "";
+//     // Add spaces
+//     for (j = 1; j <= 5 - i; j++) {
+//         space += " ";
+//     }
+//     // Add stars
+//     for (k = 1; k <= 2 * i - 1; k++) {
+//         space += "*";
+//     }
+//     console.log(space);
+// }
