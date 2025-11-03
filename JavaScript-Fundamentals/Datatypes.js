@@ -79,7 +79,7 @@ let isGreater = 10 > 5;
 let isSmaller = 5 < 2;
 let isEqual = 10 === 10;
 let isNotEqual = 5 !== 10;
-
+console.log(typeof 0);
 console.log(isAdult, typeof isAdult);
 console.log(isStudent, typeof isStudent);
 console.log(isGreater, typeof isGreater);
