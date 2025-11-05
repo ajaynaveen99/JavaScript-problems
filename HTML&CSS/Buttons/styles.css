@@ -1,0 +1,117 @@
+.middle {
+    display: flex;
+    /*   justify-content:space-between; */
+    align-items: start;
+    flex-wrap: wrap;
+    gap: 30px;
+    height: 100vh;
+}
+
+.btn {
+    padding: 15px 22px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #009be1;
+    color: #fff;
+    border-color: #009be1;
+}
+
+.one:hover {
+    background-color: #2291bf !important;
+
+}
+
+.two {
+    border-radius: 50px !important;
+}
+
+.two:hover {
+    background-color: #2291bf !important;
+}
+
+.three {
+    background-color: transparent !important;
+    color: #009be1;
+    font-weight: 600 !important;
+}
+
+.three:hover {
+    background-color: #009be1 !important;
+    color: #fff;
+    border-color: #009be1;
+}
+
+.four {
+    border-radius: 3px !important;
+}
+
+.four:hover {
+    background-color: #2291bf !important;
+}
+
+.five {
+    cursor: not-allowed !important;
+    opacity: .5 !important;
+    border-radius: 3px !important;
+}
+
+.six {
+    border-bottom-width: 4px !important;
+    border-radius: 3px !important;
+}
+
+.six:hover {
+    background-color: #2291bf !important;
+}
+
+.seven {
+    background-color: #fff !important;
+    color: #293748 !important;
+}
+
+.seven:hover {
+    background-color: #f2f2f2 !important;
+}
+
+.button-group {
+    display: flex;
+}
+
+.btn1 {
+    background-color: #d1d5db;
+    color: #1f2937;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.btn1:hover {
+    background-color: #9ca3af;
+}
+
+.btn1.left {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.btn1.right {
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.download {
+    background-color: #cbd5e0;
+    border: none;
+    font-weight: 1000 !important;
+    color: #343a53;
+    font-size: 15px;
+    border-radius: 5px !important;
+}
+
+.download:hover {
+    background-color: #e7e8f1;
+
+}

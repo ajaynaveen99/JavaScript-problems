@@ -57,7 +57,7 @@ console.log("After postfix --:", count); // now 3
 console.log("4. String Concatenation");
 
 console.log("Hello " + "World");  // "Hello World"
-console.log("Age: " + 20);        // "Age: 20"
+console.log("Age" + 20);        // "Age: 20"
 console.log(10 + "5");            // "105" (number → string)
 console.log("5" + 10);            // "510"
 console.log(2 + 2 + "1");         // "41" -> (2+2=4) then + "1" => "41"
@@ -97,8 +97,10 @@ console.log("After += and *=:", n);
 
 // tricky: right side is evaluated first
 n = 2;
-n *= 3 + 5; // same as n = n * (3+5)
-console.log("n *= 3 + 5:", n); // 16
+n *= 3 + 5; // same as n = n * 
+console.log("n *= 3 + 5:", n); 
+
+
 
 
 // -------------------------------------------------------
@@ -118,7 +120,7 @@ console.log("With parentheses:", result2);
 console.log(" 9. Chaining Assignments");
 
 let p, q, r;
-p = q = r = 5 + 5; // evaluated right-to-left
+p = q = r = 5 + 5; 
 console.log("p:", p, "q:", q, "r:", r);
 
 
@@ -127,20 +129,20 @@ console.log("p:", p, "q:", q, "r:", r);
 // -------------------------------------------------------
 console.log("10. Type Conversion & Coercion");
 
-console.log('"" + 1 + 0 =', "" + 1 + 0);   // "10" (string concatenation)
-console.log('"" - 1 + 0 =', "" - 1 + 0);   // -1 ("" -> 0, so 0 - 1 + 0)
-console.log('true + false =', true + false); // 1 (1 + 0)
-console.log('6 / "3" =', 6 / "3");           // 2 ("3" -> 3)
-console.log('"2" * "3" =', "2" * "3");       // 6
-console.log('4 + 5 + "px" =', 4 + 5 + "px"); // "9px"
-console.log('"$" + 4 + 5 =', "$" + 4 + 5);   // "$45"
-console.log('"4" - 2 =', "4" - 2);           // 2
-console.log('"4px" - 2 =', "4px" - 2);       // NaN
-console.log('"  -9  " + 5 =', "  -9  " + 5); // "  -9  5" (string concat)
-console.log('"  -9  " - 5 =', "  -9  " - 5); // -14 (string -> number)
-console.log('null + 1 =', null + 1);         // 1 (null -> 0)
-console.log('undefined + 1 =', undefined + 1); // NaN (undefined -> NaN)
-console.log('" \\t \\n" - 2 =', " \t \n" - 2); // -2 (whitespace -> 0)
+console.log('"" + 1 + 0 =', "" + 1 + 0);//
+console.log('"" - 1 + 0 =', "" - 1 + 0);
+console.log('true + false =', true + false);
+console.log('6 / "3" =', 6 / "3");
+console.log('"2" * "3" =', "2" * "3");
+console.log('4 + 5 + "px" =', 4 + 5 + "px");
+console.log('"$" + 4 + 5 =', "$" + 4 + 5);
+console.log('"4" - 2 =', "4" - 2);
+console.log('"4px" - 2 =', "4px" - 2);
+console.log('"  -9  " + 5 =', "  -9  " + 5);
+console.log('"  -9  " - 5 =', "  -9  " - 5);
+console.log('null + 1 =', null + 1);
+console.log('undefined + 1 =', undefined + 1);
+console.log('" \\t \\n" - 2 =', " \t \n" - 2);
 
 
 // -------------------------------------------------------
@@ -148,7 +150,8 @@ console.log('" \\t \\n" - 2 =', " \t \n" - 2); // -2 (whitespace -> 0)
 // -------------------------------------------------------
 console.log(" 11. Comma Operator");
 
-let val = (1 + 2, 3 + 4);  // 1+2 is ignored, 3+4 returned
+let val = (1 + 2, 3 + 4);  // 
+
 console.log("Comma result:", val); // 7
 
 // Example in for loop:

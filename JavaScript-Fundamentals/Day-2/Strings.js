@@ -1,6 +1,6 @@
 //========1=============
 //-----without using inbuilt functions-----
-function rev(str) {
+function reverseString(str) {
   let reversed = "";
   for (let i = str.length - 1; i >= 0; i--) {
     reversed = reversed + str[i];
@@ -9,7 +9,7 @@ function rev(str) {
   return reversed;
 }
 
-console.log(rev("Hello world"));
+console.log(reverseString("Hello world"));
 
 
 ///-----using inbuilt functions-----
@@ -23,24 +23,24 @@ console.log(reverseStr("Hello world"));
 //========2=============
 // without using inbuilt functions-----
 
-function firstLetterCaps(str){
-  let capital="";
-  let firstCharector=str[0];
-  let result="";
+function firstLetterCaps(str) {
+  let capital = "";
+  let firstCharector = str[0];
+  let result = "";
   let lower = "abcdefghijklmnopqrstuvwxyz";
   let upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-  for(let i=0;i<lower.length-1;i++){
-    if(firstCharector==lower[i]){
-      capital=upper[i];
+  for (let i = 0; i < lower.length - 1; i++) {
+    if (firstCharector == lower[i]) {
+      capital = upper[i];
       console.log(capital);
       break;
     }
-  } 
-  for(let j=1;j<str.length;j++){
-    result=result+str[j];
-    
-    }
-  return capital+result;
+  }
+  for (let j = 1; j < str.length; j++) {
+    result = result + str[j];
+
+  }
+  return capital + result;
 
 }
 console.log(firstLetterCaps("ajaynaveen"));
