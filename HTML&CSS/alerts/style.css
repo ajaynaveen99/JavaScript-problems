@@ -1,0 +1,38 @@
+.item1{
+  display: flex;
+  flex-direction:column;
+  gap:20px;
+}
+.item2,.item3,.item4,.item5,.item6{
+  border:1px solid black;
+  padding:20px;
+  border-radius:10px;
+  width:700px;
+}
+.fa-solid{
+  margin: 0 15px;
+}
+.item2{
+  background-color:#f7f7f7;
+}
+.item3{
+  background-color:#67d0ec;
+}
+.item4{
+  background-color:#66f096;
+}
+.item5{
+  background-color:#ffca00;
+}
+.item6{
+  background-color:#ff0090;
+}
+.two{
+  color:rgb(0 189 255);
+}
+.four{
+  color:#00821a;
+}
+.six{
+  color:orange;
+}
