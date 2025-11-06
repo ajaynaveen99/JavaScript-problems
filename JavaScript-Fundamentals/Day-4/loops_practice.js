@@ -1,5 +1,4 @@
-// ======================================================
-// DAY-5: LOOPS — while, do..while, for
+
 // ======================================================
 // Covers: while, do..while, for, break, continue, labels,
 // prefix/postfix confusion, infinite loops, tricky cases.
