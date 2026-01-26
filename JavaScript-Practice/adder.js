@@ -22,7 +22,6 @@ function check(Name,Name1){
      }
 
 }
-
-
-
-check('abc','cba')
+check("listen","silent")
+check("hello","billion")
+check("124","421")
