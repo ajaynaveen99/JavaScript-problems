@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Salary Breakup Table</title>
+<style>
+  body {
+    font-family: Calibri, Arial, sans-serif;
+    background: #ffffff;
+    margin: 40px;
+    color: #111;
+  }
+
+  .salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 15px;
+    line-height: 1.4;
+  }
+
+  .salary-table th {
+    background: orange; /* light gray header shading */
+    border: 1px solid #999;
+    padding: 8px 12px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .salary-table td {
+    border: 1px solid #999;
+    padding: 8px 12px;
+    background-color: #f2f2f2;
+  }
+
+  .salary-table td.particular {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .salary-table td.amount {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Zebra striping for neatness */
+  .salary-table tr:nth-child(odd) td {
+    background: #fbfbfb;
+  }
+
+  /* Emphasis rows */
+  .salary-table tr.emphasis td {
+    background: #e9edf5;
+    font-weight: bold;
+  }
+
+  .salary-title {
+    font-size: 18px;
+    font-weight: bold;
+padding:20px;
+    background-color:orange;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .x{
+background-color:orange !important;
+}
+</style>
+</head>
+<body>
+  <table class="salary-table">
+    <tr>
+      <th>PARTICULARS</th>
+      <th>AMOUNT (P.M)</th>
+      <th>AMOUNT (P.A)</th>
+    </tr>
+    <tr>
+      <td class="particular">BASIC PAY</td>
+      <td class="amount">20,000.00</td>
+      <td class="amount">2,40,000.00</td>
+    </tr>
+    <tr>
+      <td class="particular">HOUSE RENT ALLOWANCE</td>
+      <td class="amount">3,950.00</td>
+      <td class="amount">47,400.00</td>
+    </tr>
+    <tr>
+      <td class="particular">CONVEYANCE ALLOWANCE</td>
+      <td class="amount">3,950.00</td>
+      <td class="amount">47,400.00</td>
+    </tr>
+    <tr>
+      <td class="particular">SPECIAL SUPPLEMENTARY ALLOWANCE</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr class="emphasis">
+      <td class="particular x">GROSS SALARY</td>
+      <td class="amount x">27,900.00</td>
+      <td class="amount x ">3,34,800.00</td>
+    </tr>
+    <tr>
+      <td class="particular">Organization's Contribution</td>
+      <td class="amount">1,800.00</td>
+      <td class="amount">21,600.00</td>
+    </tr>
+    <tr>
+      <td class="particular">ESIC</td>
+      <td class="amount">650.00</td>
+      <td class="amount">7,800.00</td>
+    </tr>
+    <tr>
+      <td class="particular">BONUS</td>
+      <td class="amount">500.00</td>
+      <td class="amount">6,000.00</td>
+    </tr>
+    <tr class="emphasis">
+      <td class="particular">COST TO THE COMPANY</td>
+      <td class="amount">30,350.00</td>
+      <td class="amount">3,64,200.00</td>
+    </tr>
+    <tr>
+      <td class="particular">EPF EMPLOYEE</td>
+      <td class="amount">1,800.00</td>
+      <td class="amount">21,600.00</td>
+    </tr>
+    <tr>
+      <td class="particular">PROFESSIONAL TAX</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr>
+      <td class="particular">ESIC EMPLOYEE</td>
+      <td class="amount">150.00</td>
+      <td class="amount">1,800.00</td>
+    </tr>
+    <tr>
+      <td class="particular">TDS</td>
+      <td></td>
+      <td>-</td>
+    </tr>
+    <tr class="emphasis">
+      <td class="particular x">IN HAND SALARY</td>
+      <td class="amount x">23,000.00</td>
+      <td class="amount x">2,76,000.00</td>
+    </tr>
+  </table>
+</body>
+</html>
