@@ -15,3 +15,12 @@ function pattrenThree(row){
 
 }
 pattrenThree(5)
+/* 
+Output--------
+    *
+   ***
+  *****
+ *******
+*********
+---------
+*/

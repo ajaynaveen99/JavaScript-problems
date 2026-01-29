@@ -11,3 +11,13 @@ function pattrenTwo(num){
 
 
 pattrenTwo(5);
+
+/* Output
+
+*****
+*****
+*****
+*****
+*****
+
+*/

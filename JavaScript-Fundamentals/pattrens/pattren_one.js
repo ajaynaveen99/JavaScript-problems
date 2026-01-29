@@ -9,7 +9,7 @@ function printPyramid(rows) {
     }
 
     for (let k = 1; k <= i; k++) {
-      line += "*";//use this ==> line+="* " get piramid triangle
+      line += "* ";//use this ==> line+="* " get piramid triangle
     }
 
     console.log(line);
@@ -17,3 +17,22 @@ function printPyramid(rows) {
 }
 
 printPyramid(5);
+
+/* 
+output
+    *
+   **
+  ***
+ ****
+*****
+
+ and
+ =====
+    * 
+   * * 
+  * * * 
+ * * * * 
+* * * * * 
+ ======
+
+*/
