@@ -1,4 +1,4 @@
-function printPyramid(rows) {
+function pattrenZero(rows) {
 
   for (let i = 1; i <= rows; i++) {
 
@@ -16,7 +16,7 @@ function printPyramid(rows) {
   }
 }
 
-printPyramid(5);
+pattrenZero(5);
 
 /* 
 output
