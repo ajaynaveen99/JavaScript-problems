@@ -5,17 +5,14 @@ function parttrenNine(rows){
             star+=" ";
         }
         for(let k=1;k<=2*i-1;k++){
-            if(i==1||i==rows){
+            if(i==1||i==rows||k==1||k==2*i-1){
             star+="*"
-    }else if(k>=2&&k<=2*i-2){
+    }else {
         star+=" ";
-        }else{
-            star+="*"
-        }  
+    }
     }
     console.log(star)
-
-    }
+}
 }
 parttrenNine(5)
 /* Output

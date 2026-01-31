@@ -12,10 +12,9 @@ function PattrenEight(rows){
         console.log(star);
     }
 }
-PattrenEight(5)
+PattrenEight(5
 
-
-
+)
 
 /* output
 *********
