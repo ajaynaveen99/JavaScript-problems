@@ -1,3 +1,4 @@
+//self written code (X)
 function PattrenTen(rows) {
     for (let i = 1; i <= rows; i++) {
         let star = "";
@@ -33,3 +34,26 @@ PattrenTen(7)
 
 
 */
+/* Optimal solution is
+
+
+*/function patternPlus(rows) {
+    let mid = Math.floor(rows / 2) + 1;
+    console.log(mid);
+
+    for (let i = 1; i <= rows; i++) {
+        let line = "";
+
+        for (let j = 1; j <= rows; j++) {
+            if (i === mid || j === mid) {
+                line += "*";
+            } else {
+                line += " ";
+            }
+        }
+
+        console.log(line);
+    }
+}
+
+patternPlus(5);
