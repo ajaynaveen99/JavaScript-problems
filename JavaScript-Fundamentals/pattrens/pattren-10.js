@@ -31,8 +31,6 @@ PattrenTen(7)
    *      
    *      
    *
-
-
 */
 /* Optimal solution is
 

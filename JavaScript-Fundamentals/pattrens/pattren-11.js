@@ -21,7 +21,7 @@ function PattrenLeven(rows) {
         console.log(line)
     }
 }
-PattrenLeven(5);
+PattrenLeven(8);
 /* Output
   *
  ***
