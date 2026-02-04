@@ -1,21 +1,21 @@
 function pattrenFourteen(rows) {
 
-    for (let i = 1; i <= rows; i++) {
+    for (let i = rows; i >= 1; i--) {
         let star = "";
-        for (let j = 1; j < i; j++) {
+        for (let j = 1; j <= rows - i; j++) {
             star += " ";
         }
-        for (let k = 1; k <= 9 - 2 * (i - 1); k++) {
+        for (let k = 1; k <= 2 * i - 1; k++) {
             star += "*";
         }
         console.log(star)
     }
-    for (let i = rows - 1; i >= 1; i--) {
+    for (let i = 2; i <= rows; i++) {
         let star = "";
-        for (let j = 1; j < i; j++) {
+        for (let j = 1; j <= rows - i; j++) {
             star += " ";
         }
-        for (let k = 1; k <= 9 - 2 * (i - 1); k++) {
+        for (let k = 1; k <= 2 * i - 1; k++) {
             star += "*";
         }
         console.log(star)
