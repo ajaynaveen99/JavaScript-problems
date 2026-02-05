@@ -1,5 +1,4 @@
 function pattrenFourteen(rows) {
-
     for (let i = rows; i >= 1; i--) {
         let star = "";
         for (let j = 1; j <= rows - i; j++) {
@@ -20,8 +19,6 @@ function pattrenFourteen(rows) {
         }
         console.log(star)
     }
-
-
 }
 pattrenFourteen(5)
 
