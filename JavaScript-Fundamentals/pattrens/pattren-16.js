@@ -22,6 +22,34 @@ function alphabetPyramid(rows) {
 alphabetPyramid(5);
 
 
+//Approach-2 recomemded
+function alphabetPyramid(rows) {
+    for (let row = 1; row <= rows; row++) {
+        let line = "";
+
+
+        for (let space = 1; space <= rows - row; space++) {
+            line += " ";
+        }
+
+        let ch = 'A'.charCodeAt(0);
+        for (let i = 1; i <= row; i++) {
+            line += String.fromCharCode(ch);
+            ch++;
+        }
+        ch -= 2;
+        for (let i = 1; i < row; i++) {
+            line += String.fromCharCode(ch);
+            ch--;
+        }
+
+        console.log(line);
+    }
+}
+
+alphabetPyramid(8);
+
+
 
 /* OutPut
     A
