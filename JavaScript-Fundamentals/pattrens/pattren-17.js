@@ -5,22 +5,20 @@ function pattrenSeventeen(rows) {
         for (let j = 1; j <= i; j++) {
             num += j
         }
-        for (k = 1; k < 2 * (rows - i); k++) {
+        for (let k = 1; k < 2 * (rows - i); k++) {
             num += " ";
         }
-        let dsec = i
+        let dec = i
         for (let r = 1; r <= i; r++) {
 
-            num += dsec;
-            dsec--;
+            num += dec;
+            dec--;
 
         }
         console.log(num)
     }
-
 }
-pattrenSeventeen(5)
-
+pattrenSeventeen(5);
 /* output
 1       1
 12     21
